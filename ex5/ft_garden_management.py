@@ -61,6 +61,7 @@ class Plant:
 
 
 class GardenManager:
+    """Class to manage garden of different plants"""
     amount_per_water: int = 4
 
     def __init__(self) -> None:
