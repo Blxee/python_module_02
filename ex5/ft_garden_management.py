@@ -120,7 +120,7 @@ def test_garden_management():
     print("\nAdding plants to garden...")
 
     tomato = Plant("tomato", 1, 8)
-    lettuce = Plant("lettuce", 11, 8)
+    lettuce = Plant("lettuce", 10, 8)
     invalid_plant = Plant("", 7, 9)
 
     manager.add_plant(tomato)
