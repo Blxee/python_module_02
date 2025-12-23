@@ -128,6 +128,7 @@ def test_garden_management():
     manager.add_plant(invalid_plant)
 
     print("\nWatering plants...")
+    manager.plant_list[1].water_level += 1
     manager.water_plants()
 
     print("\nChecking plant health...")
